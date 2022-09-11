@@ -1,0 +1,36 @@
+
+<form action="/download" id="home-container" method="post">
+  <h4>Generate PDF Document With Node JS</h4>
+  <fieldset>
+    <div class="form-group">
+      <label for="email" class="col-form-label mt-4">Email address</label>
+      <input type="email" class="form-control" id="form-input email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="name" class="form-label mt-4">Full Name</label>
+      <input type="text" class="form-control" id="form-input name" name="name" placeholder="Enter your full name">
+    </div>
+    <div class="form-group">
+      <label for="course" class="form-label mt-4">Course Name</label>
+      <input type="text" class="form-control" id="form-input course" name="course" placeholder="Enter your course completed">
+    </div>
+    <div class="form-group">
+      <label for="date-of-completion" class="form-label mt-4">Date Of Completion</label>
+      <input type="date" class="form-control" id="form-input date-of-completion" name="date" placeholder="Enter the date of completion">
+    </div>
+    <div class="form-group">
+      <label for="exampleSelect1" class="form-label mt-4">Select hours contributed</label>
+      <select class="form-select" id="exampleSelect1" name="hours">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    
+    <button type="submit" id="generate-button" class="btn btn-outline-success">Generate PDF</button>
+  </fieldset>
+</form>
+

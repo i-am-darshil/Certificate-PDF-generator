@@ -1,0 +1,13 @@
+#generate-button {
+  margin-top: 20px;
+}
+
+.form-label {
+  display: inline-block;
+}
+
+#home-container {
+  text-align: center;
+  width:50%;
+  margin:auto;
+}
